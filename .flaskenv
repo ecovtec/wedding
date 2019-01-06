@@ -1,0 +1,2 @@
+FLASK_APP=wedding.py
+FLASK_DEBUG=1
