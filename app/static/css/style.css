@@ -1840,4 +1840,13 @@ form label {
   opacity: 0;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  .rsImage img { width: 0; margin-left: -99999px; padding-left: 1px; }
+
 /*# sourceMappingURL=style.css.map */
