@@ -63,13 +63,15 @@
 	<div id="fh5co-couple">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>
+				<h2>
 					The Lovely Couple
-					</h2>
+				</h2>
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h3>Tell us about your betrothed!</h3>
 				</div>
 			</div>
+		</div>
+		<div class="container">
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
@@ -341,7 +343,7 @@
 
 	<!-- RSVP Form Start -->
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(static/images/img_bg_4.jpg);">
-		<div class="overlay" id="rsvp" style="text-align:center">
+		<div class="background" id="rsvp" style="text-align:center">
 			{% with messages = get_flashed_messages() %} {% if messages %}
 			{% for message in messages %}
 			<div class="row" style="margin-top: 2%; font-style: italic">
@@ -363,9 +365,7 @@
 					</p>
 				</div>
 			</div>
-			<center>
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfc4GbtA0c39TryLKXvL5nZ7_dNB05CV-T7I9n_yKFumhVpcw/viewform?embedded=true" width="640" height="1113" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-			</center>
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfc4GbtA0c39TryLKXvL5nZ7_dNB05CV-T7I9n_yKFumhVpcw/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0"></iframe>
 		
 <!--	
 			<form action="/rsvp" method="post" class="form-inline">
