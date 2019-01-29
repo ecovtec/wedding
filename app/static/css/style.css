@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* =======================================================
 *
 * 	Template Style 
@@ -1840,6 +1841,7 @@ form label {
   opacity: 0;
 }
 
+
 .center {
   display: block;
   margin-left: auto;
@@ -1848,5 +1850,6 @@ form label {
   }
 
   .rsImage img { width: 0; margin-left: -99999px; padding-left: 1px; }
+
 
 /*# sourceMappingURL=style.css.map */
