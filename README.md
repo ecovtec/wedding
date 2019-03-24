@@ -1,6 +1,6 @@
 # Angie & Chris' wedding site
 
-> Development server using Python3
+> Development server using Python3 and flask
 
 ## To push to GitHub repo
 
