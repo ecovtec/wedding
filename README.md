@@ -1,5 +1,7 @@
 # Angie & Chris' wedding site
 
+> Development server using Python3
+
 ## To push to GitHub repo
 
 ```bash
@@ -13,3 +15,9 @@ git push origin master
 ```bash
 git push heroku master
 ```
+## Starting development server
+
+```bash
+python3 -m flask run
+```
+
