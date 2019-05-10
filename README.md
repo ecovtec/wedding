@@ -1,6 +1,6 @@
 # Angie & Chris' wedding site
 
-> Development server using Python3 and flask
+> Development server using __Python3__ and flask
 
 ## To push to GitHub repo
 
@@ -21,3 +21,6 @@ git push heroku master
 python3 -m flask run
 ```
 
+### Notes for gr3g
+
+- NOT PYTHON 2
